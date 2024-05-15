@@ -1,0 +1,77 @@
+.mainPaqueteSeleccionado{
+    height: 800px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #272727;
+    color: #999999;
+   
+
+    background-image: linear-gradient(90deg, #323232 0.12%, #272727 0.12%, #272727 50%, #323232 50%, #323232 50.12%, #272727 50.12%, #272727 100%);
+    background-size: 40% 802.00px;
+}
+.cardPaquete{
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+  
+}
+
+
+
+.PaqueteImage{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    float: right;
+    transition: transform .5s;
+    padding-left: 50px;
+  
+  
+  
+}
+
+.PaqueteImage:hover{
+    transform: scale(.98);
+}
+
+.PaqueteText{
+    background-color: #272727;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    margin-top: 250px;
+    
+    z-index: 2;
+    color: #e9e9e9;
+    padding: 20px;
+    box-shadow: 1px 1px 30px #2020208f !important;
+
+}
+
+.PaqueteCardImg{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.PaqueteCard{
+    height: 500px !important;
+    background-color: #323232;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 1px 1px 30px #202020 !important;
+
+}
+.PaqueteCardText{
+    padding: 20px;
+    
+}
+
+.list-group-item{
+    background-color: #323232 !important;
+    color: #978268 !important;
+    font-size: 20px;
+    text-align: center;
+    
+}

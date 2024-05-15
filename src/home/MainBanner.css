@@ -1,0 +1,162 @@
+.carousel-control-prev{
+    width: 50px !important;
+    height: 50px !important;    
+    margin-left: 50px; 
+   border-radius: 50%;
+   border: solid !important;
+   border-width: 1px !important; 
+   margin-top: 800px;
+   transition: .5s ;
+   
+}
+
+.carousel-control-next{
+    width: 50px !important;
+    height: 50px !important;    
+    margin-top: 800px;
+    margin-right: 90%;
+    border-radius: 50%;
+    border: solid !important;
+    border-width: 1px !important; 
+    transition: .5s ;
+    
+
+ }
+
+ .carousel-control-next:hover{
+   transform: scale(.9);
+   color: #978268 !important;
+   border-color: #978268;
+ }
+
+ .carousel-control-prev:hover{
+    transform: scale(.9);
+    color: #978268 !important;
+    border-color: #978268;
+  }
+
+
+
+.bannerImg{
+    opacity: 100%; 
+    filter: brightness(70%);
+    
+}
+
+.carouselText{
+    width: 50%;
+    
+    text-align: right !important;
+    margin-left: 20%;
+    padding: 10px;
+    height: 400px;
+    margin-bottom:6%;
+    
+
+   
+}
+
+.carouselText h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+   
+}
+
+.carouselText h1, h5, div{
+    text-shadow: 0px 5px 30px #202020c7 !important;
+
+}
+
+
+.carouselText div{
+    margin-top: 20px;
+    border: solid;
+    border-width: 1px;
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    line-height: 45px;
+    float: right;
+    text-align: center;
+    
+}
+
+
+
+.sideIcons {
+    width: 150px;
+    margin-top: auto;
+    
+
+
+}
+
+.iconContainer {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid;
+    border-color: #373737;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-self: flex-end;
+
+    border-radius: 50%;
+    color: #9c9994;
+    transform: scale(.9);
+}
+
+.line{
+    
+   
+    text-align: center;
+  
+    
+    
+
+    color: #9c9994;
+
+}
+
+
+
+
+
+.bi {
+
+    text-align: center;
+    vertical-align: middle;
+    line-height: 47px;
+   
+    margin: auto;
+    
+
+
+}
+
+
+.iconContainer:hover,.bi:hover {
+
+    border-color: #978268;
+    color: #978268 !important;
+}
+
+
+
+.main {
+    background: #272727;
+}
+
+.banner{
+    width: 100%;
+    
+}
+
+.carousel-item{
+    overflow: hidden;
+    height: 900px;
+}
+
+

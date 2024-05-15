@@ -1,0 +1,39 @@
+
+
+
+.bgContainer{
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    background-color: #272727;
+    z-index: -1;
+}
+
+.overlayImg{
+   
+
+    height: 100%;
+   width: 100%;
+   object-fit: cover; 
+   z-index: -1;
+   top: 0;
+   position: fixed;
+   opacity: 100%;
+   filter: brightness(70%);
+
+}
+.bgText{
+    z-index: 1;
+    background-color: #1e1e1e;
+    opacity: 97%;
+    min-width: 300px;
+    width: 25%;
+    height: 400px;
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 60%;
+    padding: 50px;
+    color: #999999;
+
+   
+}

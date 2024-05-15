@@ -1,0 +1,68 @@
+.listPaquete{
+    color:   #978268 !important;
+    
+    padding-top: 80px;
+    padding-right: 20px;
+}
+
+
+.table{
+    color:#999999 !important;
+   /* text-align: center; */
+   border: none !important;
+   line-height: 50px;
+   text-decoration: none;
+  
+   
+   
+}
+
+.Tbrows{
+    color:#999999 !important;
+   /* text-align: center; */
+   border: none !important;
+   line-height: 50px;
+   text-decoration: none;
+   
+   
+}
+
+tr{
+    
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+td,th{
+   
+    line-height: 25px;
+   width: 80px;
+   padding: 0px !important;
+   padding-top: 20px !important;
+   margin: 0px !important;
+   height: 80px;
+   text-align: center !important;  
+   border: none !important;
+}
+
+
+
+
+.detalleTitle{
+    
+    height: 120px;
+    line-height: 0px;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 150px;
+  
+}
+
+.detalleTitle h1{
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+

@@ -1,0 +1,105 @@
+
+.mainReserva{
+    background-color: #272727;
+    color: #999999;
+    padding-bottom: 200px;
+
+    background-image: linear-gradient(90deg, #323232 0.12%, #272727 0.12%, #272727 50%, #323232 50%, #323232 50.12%, #272727 50.12%, #272727 100%);
+    background-size: 40% 802.00px;
+
+ 
+}
+
+
+
+.listPaquete{
+    color:   #978268 !important;
+    
+    padding-top: 80px;
+    padding-right: 20px;
+}
+
+
+.table{
+    color:#999999 !important;
+ 
+   border: none !important;
+   line-height: 50px;
+   text-decoration: none;
+  
+   
+   
+}
+
+.Tbrows{
+    color:#999999 !important;
+   /* text-align: center; */
+   border: none !important;
+   line-height: 50px;
+   text-decoration: none;
+   
+   
+}
+
+tr{
+    
+    display: flex;
+    justify-content: space-between;
+   
+    
+}
+
+td,th{
+   
+    line-height: 25px;
+   width: 80px;
+   padding: 0px !important;
+   padding-top: 20px !important;
+   margin: 0px !important;
+   height: 80px;
+   text-align: center !important;  
+   border: none !important;
+}
+
+
+
+
+.reservaTitle{
+
+    padding-top: 50px;
+    color:   #978268 !important;
+    
+    height: 120px;
+    line-height: 0px;
+    text-align: right;
+    padding-right: 10px;
+  
+}
+
+.reservaTitle h1{
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+
+.modal-content{
+    background-color: #272727 !important;
+    color: #999999 !important;
+
+}
+
+
+.form-control{
+    background-color: #272727 !important;
+    color: #999999 !important;
+    border-color: #323232 !important;
+}
+
+.btn-primary{
+    background-color: #978268 !important;
+    border-color: #323232 !important;
+    color: #dfdfdf !important;
+    font-weight: bolder !important;
+
+}
